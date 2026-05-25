@@ -1,12 +1,12 @@
 {
   "id": "mpkfuxai",
   "name": "Learn LLM as SWE",
-  "activeFileId": "mpkqfo9s",
+  "activeFileId": "mplpkqej",
   "children": [
     {
       "id": "mpkfuxal",
       "kind": "folder",
-      "name": "LLM in cs336",
+      "name": "LLM Architecture",
       "expanded": true,
       "children": [
         {
@@ -38,9 +38,48 @@
           "kind": "file",
           "name": "4-rms-normalization.md",
           "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpkqfo9t",
+          "kind": "file",
+          "name": "5-causal-multi-head-self-attention-with-rope.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mplpkqej",
+          "kind": "file",
+          "name": "6-residule-path.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mplpkqek",
+          "kind": "file",
+          "name": "7-position-wise-feed-forward.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mplqopt9",
+          "kind": "file",
+          "name": "8-output-embedding.md",
+          "mimeType": "text/markdown"
+        }
+      ]
+    },
+    {
+      "id": "mplpkqel",
+      "kind": "folder",
+      "name": "image",
+      "expanded": false,
+      "children": [
+        {
+          "id": "mplpkqem",
+          "kind": "file",
+          "name": "pasted-image-2026-05-25T21-43-27-318Z.png",
+          "encoding": "base64",
+          "mimeType": "image/png"
         }
       ]
     }
   ],
-  "updatedAt": 1779689651536
+  "updatedAt": 1779747292447
 }

@@ -58,7 +58,7 @@ Output Embedding Matrix:
 ]
 ```
 
-## Dimensional Transformation in the LLM Pipeline
+## Dimensional Transformation Overlook of Token Embedding Layer
 
 During a forward pass in training or inference, the input batch of token IDs changes shape as it moves through the embedding layer.
 

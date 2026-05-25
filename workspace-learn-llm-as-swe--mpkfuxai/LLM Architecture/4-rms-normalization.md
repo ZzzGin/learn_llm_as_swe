@@ -26,7 +26,7 @@ Here:
 
 * $\epsilon$ is a small constant (typically $10^{-5}$) added for numerical stability to avoid division by zero.
 
-## Dimensional Transformation in the LLM Pipeline
+## Dimensional Transformation Overlook of RMSNorm Layer
 
 During a forward pass in the Transformer, RMSNorm is applied to the activation tensor (hidden states) at various points (e.g., before the Self-Attention and MLP blocks).
 
@@ -40,11 +40,11 @@ RMSNorm is a **shape-preserving** operation. It normalizes values along the feat
 
   * Each activation vector is divided by its RMS and then scaled element-wise by the learnable parameter.
 
-  * **Learnable Parameter**: 
+  * **Learnable Parameter**:
 
     * Gain parameter $g$ with shape `(d_model,)` which is broadcasted across the batch and sequence dimensions.
 
-  * **Hyper parameter**: 
+  * **Hyper parameter**:
 
     * Small constant $\epsilon$ that is often fixed at $10^{-5}$.
 
@@ -68,7 +68,7 @@ Output: Normalized states of shape (B, T, C)
 
 This shape preservation ensures that the tensor can continue to flow seamlessly through subsequent layers of the network without requiring any dimensional projection.
 
-## FAQs: Understanding the Learnable Parameter $g$
+## FAQs:
 
 ### Why do we need the learnable parameter $g$?
 
