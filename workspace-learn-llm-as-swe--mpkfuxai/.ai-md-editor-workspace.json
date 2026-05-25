@@ -1,0 +1,46 @@
+{
+  "id": "mpkfuxai",
+  "name": "Learn LLM as SWE",
+  "activeFileId": "mpkqfo9s",
+  "children": [
+    {
+      "id": "mpkfuxal",
+      "kind": "folder",
+      "name": "LLM in cs336",
+      "expanded": true,
+      "children": [
+        {
+          "id": "mpkfuxaj",
+          "kind": "file",
+          "name": "architecture.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpkfuxak",
+          "kind": "file",
+          "name": "1-tokenizer.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpkqfo9o",
+          "kind": "file",
+          "name": "2-batched-process.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpkqfo9n",
+          "kind": "file",
+          "name": "3-token-embedding.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpkqfo9s",
+          "kind": "file",
+          "name": "4-rms-normalization.md",
+          "mimeType": "text/markdown"
+        }
+      ]
+    }
+  ],
+  "updatedAt": 1779689651536
+}
