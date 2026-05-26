@@ -1,7 +1,7 @@
 {
   "id": "mpkfuxai",
   "name": "Learn LLM as SWE",
-  "activeFileId": "mpkfuxaj",
+  "activeFileId": "mpm74x9l",
   "children": [
     {
       "id": "mpkfuxal",
@@ -66,6 +66,32 @@
       ]
     },
     {
+      "id": "mpm0wq1o",
+      "kind": "folder",
+      "name": "Implementations",
+      "expanded": true,
+      "children": [
+        {
+          "id": "mpm0wq1p",
+          "kind": "file",
+          "name": "pytorch_operations.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpm0wq1q",
+          "kind": "file",
+          "name": "bpe_tokenizer_impl.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpm74x9l",
+          "kind": "file",
+          "name": "linear_module.md",
+          "mimeType": "text/markdown"
+        }
+      ]
+    },
+    {
       "id": "mplpkqel",
       "kind": "folder",
       "name": "image",
@@ -81,5 +107,5 @@
       ]
     }
   ],
-  "updatedAt": 1779747292447
+  "updatedAt": 1779775450630
 }

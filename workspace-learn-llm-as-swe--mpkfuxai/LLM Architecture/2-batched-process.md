@@ -34,7 +34,7 @@ This structure allows the model to learn multiple predictions simultaneously fro
 
 * Given `[258, 111, 261, 108]`, predict `100`.
 
-## Batching Mechanics as Metrics Dimensions
+## Batching Mechanics as Matrix Dimensions
 
 To utilize modern hardware accelerators, we process multiple sequences in parallel. We define two key dimensions:
 
