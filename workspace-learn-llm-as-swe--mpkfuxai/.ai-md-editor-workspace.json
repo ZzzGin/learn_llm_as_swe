@@ -1,13 +1,13 @@
 {
   "id": "mpkfuxai",
   "name": "Learn LLM as SWE",
-  "activeFileId": "mpm74x9l",
+  "activeFileId": "mpnqcbwa",
   "children": [
     {
       "id": "mpkfuxal",
       "kind": "folder",
       "name": "LLM Architecture",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "id": "mpkfuxaj",
@@ -69,7 +69,7 @@
       "id": "mpm0wq1o",
       "kind": "folder",
       "name": "Implementations",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "id": "mpm0wq1p",
@@ -87,6 +87,94 @@
           "id": "mpm74x9l",
           "kind": "file",
           "name": "linear_module.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpm74x9o",
+          "kind": "file",
+          "name": "embedding.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpm74x9p",
+          "kind": "file",
+          "name": "rms_norm.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpm74x9q",
+          "kind": "file",
+          "name": "positionwise_feedforward.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpm74x9r",
+          "kind": "file",
+          "name": "rope.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpnqcbw1",
+          "kind": "file",
+          "name": "softmax.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpnqcbw2",
+          "kind": "file",
+          "name": "attention.md",
+          "mimeType": "text/markdown"
+        }
+      ]
+    },
+    {
+      "id": "mpnqcbw3",
+      "kind": "folder",
+      "name": "Training",
+      "expanded": false,
+      "children": [
+        {
+          "id": "mpnqcbw4",
+          "kind": "file",
+          "name": "cross-entropy-loss.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpnqcbw5",
+          "kind": "file",
+          "name": "adam-w-optimizer.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpnqcbw6",
+          "kind": "file",
+          "name": "learning-rate-scheduling.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpnqcbw7",
+          "kind": "file",
+          "name": "gradient-clipping.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mpnqcbw8",
+          "kind": "file",
+          "name": "train-path.md",
+          "mimeType": "text/markdown"
+        }
+      ]
+    },
+    {
+      "id": "mpnqcbw9",
+      "kind": "folder",
+      "name": "Inference",
+      "expanded": true,
+      "children": [
+        {
+          "id": "mpnqcbwa",
+          "kind": "file",
+          "name": "inference-path.md",
           "mimeType": "text/markdown"
         }
       ]
@@ -107,5 +195,5 @@
       ]
     }
   ],
-  "updatedAt": 1779775450630
+  "updatedAt": 1780034906361
 }
