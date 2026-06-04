@@ -332,7 +332,7 @@ We enforce causality by modifying the raw attention scores **before** they are p
 
 For a sequence of length $T = 4$, the causal mask looks like this:
 
-| Query \ Key | ("The") | ("chef") | ("cooked") | ("the") |
+| Query \\ Key | ("The") | ("chef") | ("cooked") | ("the") |
 | --- | --- | --- | --- | --- |
 | ("The") | Allow | Block | Block | Block |
 | ("chef") | Allow | Allow | Block | Block |

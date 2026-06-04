@@ -1,13 +1,13 @@
 {
   "id": "mpkfuxai",
   "name": "Learn LLM as SWE",
-  "activeFileId": "mpnqcbwa",
+  "activeFileId": "mpkfuxaj",
   "children": [
     {
       "id": "mpkfuxal",
       "kind": "folder",
       "name": "LLM Architecture",
-      "expanded": false,
+      "expanded": true,
       "children": [
         {
           "id": "mpkfuxaj",
@@ -169,12 +169,32 @@
       "id": "mpnqcbw9",
       "kind": "folder",
       "name": "Inference",
-      "expanded": true,
+      "expanded": false,
       "children": [
         {
           "id": "mpnqcbwa",
           "kind": "file",
           "name": "inference-path.md",
+          "mimeType": "text/markdown"
+        },
+        {
+          "id": "mprvdsuf",
+          "kind": "file",
+          "name": "kv-cache.md",
+          "mimeType": "text/markdown"
+        }
+      ]
+    },
+    {
+      "id": "mpw62c7u",
+      "kind": "folder",
+      "name": "Random Q&As",
+      "expanded": false,
+      "children": [
+        {
+          "id": "mpw62c7v",
+          "kind": "file",
+          "name": "sft-rl.md",
           "mimeType": "text/markdown"
         }
       ]
@@ -195,5 +215,5 @@
       ]
     }
   ],
-  "updatedAt": 1780034906361
+  "updatedAt": 1780377572944
 }
